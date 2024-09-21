@@ -28,6 +28,7 @@ public class Main {
                         CRUD_Usuarios.buscarUsuario(reader,listaClientes,correo);
                         break;
                     case 3:
+                        CRUD_Usuarios.totalIngresos(listaClientes);
                         break;
                     case 0:
                         System.out.println("Adios");
